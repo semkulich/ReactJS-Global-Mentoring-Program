@@ -1,0 +1,7 @@
+/.sass-cache
+.DS_Store
+*.codekit
+.idea
+assets/*
+node_modules
+yarn-error.log
