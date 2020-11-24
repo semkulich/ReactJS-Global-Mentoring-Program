@@ -1,5 +1,11 @@
-import React from "react";
+import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import App from "./App.js";
+import App from "./App";
+import state from './storage/dataStorage'
 
-ReactDOM.render(<App/>, document.getElementById("root"));
+ReactDOM.render(
+    <React.StrictMode>
+        <App data={state}/>
+    </React.StrictMode>,
+    document.getElementById('root')
+);

@@ -1,0 +1,32 @@
+.movieBarWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.25rem;
+  padding-top: .675rem;
+  border-bottom: 2px solid #555555;
+
+  .categoriesWrapper {
+    padding-bottom: .675rem;
+    a {
+      padding-bottom: .675rem;
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #ffffff;
+      padding-right: 1.25rem;
+
+      &.active {
+        border-bottom: 2px solid #f65261;
+      }
+    }
+  }
+  .filterWrapper {
+    span {
+      color: #555555;
+      text-transform: uppercase;
+      padding-right: 1.25rem;
+    }
+    input {
+      text-transform: uppercase;
+    }
+  }
+}
